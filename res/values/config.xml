@@ -239,13 +239,13 @@
         Whether or not the homepage should be powered by legacy suggestion (versus contextual cards)
         Default to true as not all devices support contextual cards.
     -->
-    <bool name="config_use_legacy_suggestion">true</bool>
+    <bool name="config_use_legacy_suggestion">false</bool>
 
     <!-- Whether or not homepage should display user's account avatar -->
     <bool name="config_show_avatar_in_homepage">false</bool>
 
     <!-- Whether or not emergency info tile should display in device info page -->
-    <bool name="config_show_emergency_info_in_device_info">true</bool>
+    <bool name="config_show_emergency_info_in_device_info">false</bool>
 
     <!-- Whether or not branded account info tile should display in device info page -->
     <bool name="config_show_branded_account_in_device_info">true</bool>
@@ -394,7 +394,7 @@
     <bool name="config_show_private_dns_settings">true</bool>
 
     <!-- Whether memory from app_info_settings is available or not. -->
-    <bool name="config_show_app_info_settings_memory">false</bool>
+    <bool name="config_show_app_info_settings_memory">true</bool>
 
     <!-- Whether battery from app_info_settings is available or not. -->
     <bool name="config_show_app_info_settings_battery">true</bool>
@@ -478,7 +478,7 @@
     <bool name="config_show_trust_agent_click_intent">true</bool>
 
     <!-- Whether wallpaper attribution should be shown or not. -->
-    <bool name="config_show_wallpaper_attribution">true</bool>
+    <bool name="config_show_wallpaper_attribution">false</bool>
 
     <!-- Whether assist_and_voice_input should be shown or not. -->
     <bool name="config_show_assist_and_voice_input">true</bool>
@@ -571,10 +571,10 @@
     <bool name="config_show_smooth_display">false</bool>
 
     <!-- Whether to show emergency settings in top-level Settings -->
-    <bool name="config_show_emergency_settings">true</bool>
+    <bool name="config_show_emergency_settings">false</bool>
 
     <!-- Whether to show emergency gesture in Settings -->
-    <bool name="config_show_emergency_gesture_settings">true</bool>
+    <bool name="config_show_emergency_gesture_settings">false</bool>
 
     <!-- Optional package name if another 1p app wants to take over the emergency gesture settings UI -->
     <string name="emergency_gesture_settings_package"></string>
@@ -680,7 +680,7 @@
     <bool name="config_network_selection_list_aggregation_enabled">false</bool>
 
     <!-- Max network scan search time in seconds -->
-    <integer name="config_network_scan_helper_max_search_time_sec">300</integer>
+    <integer name="config_network_scan_helper_max_search_time_sec">254</integer>
 
     <!-- Whether to give option to add restricted profiles -->
     <bool name="config_offer_restricted_profiles">false</bool>
@@ -695,7 +695,7 @@
     </string-array>
 
     <!-- The ratio to use when using the two-pane settings layout -->
-    <item name="config_activity_embed_split_ratio" format="float" type="dimen">0.3636</item>
+    <item name="config_activity_embed_split_ratio" format="float" type="dimen">0.5</item>
 
     <!-- The smallest value of the smallest-width (sw) of the window in any rotation when the split
          should be used. -->
@@ -782,7 +782,7 @@
     <bool name="config_battery_manager_consider_ac">false</bool>
 
     <!-- Whether to display Cloned Apps page in Settings (Settings > Apps > Cloned Apps).-->
-    <bool name="config_cloned_apps_page_enabled">false</bool>
+    <bool name="config_cloned_apps_page_enabled">true</bool>
 
     <!-- Whether to initiate Account login during Private Space setup.-->
     <bool name="config_privatespace_account_login_enabled">false</bool>
