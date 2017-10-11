@@ -128,4 +128,8 @@
     <!-- Annoying Notifications -->
     <string name="notification_sound_vib_screen_on_title">Звук уведомления при включенном экране</string>
     <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию для уведомлений при включенном экране</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Увеличение громкости звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время нарастания громкости</string>
 </resources>
