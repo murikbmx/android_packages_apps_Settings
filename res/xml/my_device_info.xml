@@ -100,26 +100,26 @@
         android:selectable="false"
         android:title="@string/my_device_info_device_details_category_title">
 
-        <!-- SIM status -->
-        <Preference
-            android:key="sim_status"
-            android:order="18"
-            android:title="@string/sim_status_title"
-            settings:keywords="@string/keywords_sim_status"
-            android:summary="@string/summary_placeholder"
-            settings:isPreferenceVisible="@bool/config_show_sim_info"
-            settings:enableCopying="true"/>
-
         <!-- Model & hardware -->
         <Preference
             android:key="device_model"
-            android:order="31"
+            android:order="18"
             android:title="@string/model_info"
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.deviceinfo.hardwareinfo.HardwareInfoFragment"
             settings:enableCopying="true"
             settings:keywords="@string/keywords_model_and_hardware"
             settings:controller="com.android.settings.deviceinfo.HardwareInfoPreferenceController"/>
+
+        <!-- SIM status -->
+        <Preference
+            android:key="sim_status"
+            android:order="31"
+            android:title="@string/sim_status_title"
+            settings:keywords="@string/keywords_sim_status"
+            android:summary="@string/summary_placeholder"
+            settings:isPreferenceVisible="@bool/config_show_sim_info"
+            settings:enableCopying="true"/>
 
         <!-- IMEI -->
         <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
