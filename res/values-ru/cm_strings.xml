@@ -141,4 +141,11 @@
     <string name="back_gesture_inset_scale_left_summary">Отключить жест «Назад» с левой стороны экрана</string>
     <string name="back_gesture_inset_scale_right_title">Правый жест назад</string>
     <string name="back_gesture_inset_scale_right_summary">Отключить жест «Назад» с правой стороны экрана</string>
+    
+    <string name="three_finger_gesture">Снимок экрана</string>
+    <string name="three_finger_gesture_summary">Жест вниз тремя пальцами</string>
+    
+    <!-- Copy to clipboard -->
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+    <string name="longpress_to_clipboard">Долгое нажатие для копирования</string>
 </resources>
