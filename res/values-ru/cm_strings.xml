@@ -155,4 +155,8 @@
     <string name="hide_app_desc">Если вы скроете это приложение, оно станет недоступно для системы Android и других приложений, что может нарушить их работу. Данные приложения при этом сохранятся. Скрывая приложение, вы отключаете его и убираете из общего доступа на устройстве.</string>
 
     <string name="filter_hidden_apps">Скрытые приложения</string>
+    
+    <!-- Copy to clipboard -->
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+    <string name="longpress_to_clipboard">Долгое нажатие для копирования</string>
 </resources>
