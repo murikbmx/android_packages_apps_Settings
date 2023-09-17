@@ -113,4 +113,7 @@
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Игнорировать флаг безопасного окна</string>
     <string name="ignore_window_secure_summary">Удалите ограничения на скриншоты и записи экрана для всех приложений. В некоторых случаях это может быть удобно, но может привести к утечке конфиденциальной информации.</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Проведите, чтобы сделать снимок экрана</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами вниз, чтобы сделать снимок экрана</string>
 </resources>
