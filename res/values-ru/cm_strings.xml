@@ -144,4 +144,15 @@
     
     <string name="three_finger_gesture">Снимок экрана</string>
     <string name="three_finger_gesture_summary">Жест вниз тремя пальцами</string>
+    
+    <!-- App info screen -->
+    <string name="hide">Скрыть</string>
+    <string name="hidden">Скрыто</string>
+    <string name="unhide">Показать</string>
+    <string name="hide_app">Скрыть приложение</string>
+    <string name="unhide_app">Показать приложение</string>
+    <string name="unhide_app_desc">Если вы сделаете приложение видимым, оно снова станет доступно системе Android и другим приложениям.</string>
+    <string name="hide_app_desc">Если вы скроете это приложение, оно станет недоступно для системы Android и других приложений, что может нарушить их работу. Данные приложения при этом сохранятся. Скрывая приложение, вы отключаете его и убираете из общего доступа на устройстве.</string>
+
+    <string name="filter_hidden_apps">Скрытые приложения</string>
 </resources>
