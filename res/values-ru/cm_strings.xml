@@ -118,4 +118,8 @@
     <string name="back_gesture_inset_scale_left_summary">Отключить жест «Назад» с левой стороны экрана</string>
     <string name="back_gesture_inset_scale_right_title">Правый жест назад</string>
     <string name="back_gesture_inset_scale_right_summary">Отключить жест «Назад» с правой стороны экрана</string>
+    <!-- Per-app volume -->
+    <string name="app_volume">Громкость приложения</string>
+    <string name="app_volume_title">Регулировка громкости для каждого приложения</string>
+    <string name="app_volume_summary">Отображение кнопки громкости для каждого приложения в диалоговом окне громкости</string>
 </resources>
