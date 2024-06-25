@@ -125,4 +125,8 @@
 
     <string name="wifi_timeout_summary">Wi-Fi выключится через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключения к сети</string>
     <string name="wifi_timeout_summary2">Выключено</string>
+    
+    <!-- Strict location redaction setting -->
+    <string name="strict_location_redaction_title">Удалять данные о местоположении при обмене медиа</string>
+    <string name="strict_location_redaction_description">Только галереи и файловые менеджеры смогут считывать метаданные о местоположении из ваших фото и видео. (Сторонним приложениям потребуются права «Доступ ко всем файлам» или «Управление медиафайлами».)</string>
 </resources>
