@@ -120,4 +120,8 @@
     <string name="battery_design_capacity_summary">%1$d mAh</string>
     <string name="battery_maximum_capacity">Максимальная емкость</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Снимок экрана</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами вниз, чтобы сделать снимок экрана</string>
 </resources>
