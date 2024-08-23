@@ -124,4 +124,8 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Снимок экрана</string>
     <string name="three_finger_gesture_summary">Проведите тремя пальцами вниз, чтобы сделать снимок экрана</string>
+    
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Игнорировать флаги безопасности окна</string>
+    <string name="ignore_window_secure_summary">Снимите ограничения на скриншоты и записи экрана для всех приложений. Это может быть удобно в некоторых случаях, но может привести к утечкам конфиденциальной информации</string>
 </resources>
