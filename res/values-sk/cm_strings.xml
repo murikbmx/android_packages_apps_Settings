@@ -38,8 +38,6 @@
     <string name="lockpattern_settings_enable_error_path_title">Zobraziť chybu vzoru</string>
     <string name="lockpattern_settings_enable_dots_title">Zobraziť body vzoru</string>
     <string name="min_refresh_rate_title">Minimálna obnovovacia frekvencia</string>
-    <string name="show_navbar_hint_title">Navigačná nápoveda</string>
-    <string name="show_navbar_hint_summary">Zobraziť panel nápovedy k navigácii naspodu obrazovky</string>
     <string name="app_notification_sound_timeout_title">Minimálny čas medzi zvukmi upozornenia</string>
     <string name="app_notification_sound_timeout_summary_template">Povoliť zvuky alebo vibrácie nie viac ako raz za <xliff:g id="duration">%1$s </xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Bez obmedzení</string>

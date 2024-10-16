@@ -57,8 +57,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tryk på fingeraftrykssensoren på tablet\'ens side.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Tryk på fingeraftrykssensoren på enhedens side.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Tryk på fingeraftrykssensoren på mobilens side.</string>
-    <string name="show_navbar_hint_title">Navigations hint</string>
-    <string name="show_navbar_hint_summary">Vis navigationsbjælke nederst på skærmen</string>
     <string name="app_notification_sound_timeout_title">Minimumstid imellem notifikationslyde</string>
     <string name="app_notification_sound_timeout_summary_template">Tillad ikke lyde, eller vibration, mere end én gang hver <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Ingen restriktion</string>

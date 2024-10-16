@@ -64,8 +64,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Tocca il sensore sulla parte laterale del tuo dispositivo.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Tocca il sensore sulla parte laterale del tuo telefono.</string>
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Tocca il sensore d\'impronte per sbloccare, anche quando lo schermo è spento. Il sensore di prossimità impedisce lo sblocco accidentale.</string>
-    <string name="show_navbar_hint_title">Indicatore navigazione</string>
-    <string name="show_navbar_hint_summary">Mostra l\'indicatore di navigazione in fondo allo schermo</string>
     <string name="app_notification_sound_timeout_title">Tempo minimo tra suoni di notifica</string>
     <string name="app_notification_sound_timeout_summary_template">Consenti suoni o vibrazioni non più di una volta ogni <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Nessuna restrizione</string>

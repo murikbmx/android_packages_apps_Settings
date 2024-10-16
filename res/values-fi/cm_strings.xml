@@ -38,8 +38,6 @@
     <string name="lockpattern_settings_enable_error_path_title">Näytä kuvion virhe</string>
     <string name="lockpattern_settings_enable_dots_title">Näytä kuvion pisteet</string>
     <string name="min_refresh_rate_title">Minimi virkistystaajuus</string>
-    <string name="show_navbar_hint_title">Alapalkki</string>
-    <string name="show_navbar_hint_summary">Näytä alapalkki näytön alareunassa</string>
     <string name="app_notification_sound_timeout_title">Vähimmäisväli ilmoitusäänissä</string>
     <string name="app_notification_sound_timeout_summary_template">Sallii äänen tai värinän vain seuraavin välein: <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Ei rajoitusta</string>

@@ -64,8 +64,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Коснитесь сенсора на вашем устройстве.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Коснитесь сенсора на вашем телефоне.</string>
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Коснитесь сенсора, чтобы разблокировать устройство, даже если экран выключен. Датчик приближения предотвращает случайную разблокировку.</string>
-    <string name="show_navbar_hint_title">Подсказки по навигации</string>
-    <string name="show_navbar_hint_summary">Показать подсказку по навигации в нижней части экрана</string>
     <string name="app_notification_sound_timeout_title">Частота звуковых уведомлений</string>
     <string name="app_notification_sound_timeout_summary_template">Звуки и вибрация не чаще, чем раз в <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Без ограничений</string>

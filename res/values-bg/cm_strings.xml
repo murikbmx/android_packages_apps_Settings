@@ -39,8 +39,6 @@
     <string name="lockpattern_settings_enable_dots_title">Покажи точките на модела</string>
     <string name="max_refresh_rate_title">Пикова честота на опресняване</string>
     <string name="min_refresh_rate_title">Минимална честота на опресняване</string>
-    <string name="show_navbar_hint_title">Подсказки за навигация</string>
-    <string name="show_navbar_hint_summary">Показване на подсказки за навигация в долната част на екрана</string>
     <string name="app_notification_sound_timeout_title">Минимално време между напомняния</string>
     <string name="app_notification_sound_timeout_summary_template">Разреши звуци или вибрации, но не повече от веднъж на всеки <xliff:g id="duration">%1$s </xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Без ограничение</string>

@@ -59,8 +59,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tabletinizin yan tarafındaki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cihazınızın yan tarafındaki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafındaki sensöre dokunun.</string>
-    <string name="show_navbar_hint_title">Gezinme ipucu</string>
-    <string name="show_navbar_hint_summary">Ekranın altında gezinme ipucu çubuğunu göster</string>
     <string name="app_notification_sound_timeout_title">Bildirim sesleri arasında en az zaman</string>
     <string name="app_notification_sound_timeout_summary_template">Bir defadan fazla olmayacak şekilde her <xliff:g id="duration">%1$s</xliff:g>\'da bir titreme veya sese izin ver</string>
     <string name="app_notification_sound_timeout_value_none">Kısıtlama yok</string>

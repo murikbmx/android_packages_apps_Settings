@@ -28,7 +28,6 @@
     <string name="lock_settings_picker_pattern_size_message">Выберыце памер графічнага ключа</string>
     <string name="lockpattern_settings_enable_error_path_title">Паказваць няправільны ўвод</string>
     <string name="lockpattern_settings_enable_dots_title">Паказваць кропкі</string>
-    <string name="show_navbar_hint_title">Падказкі навігацыі</string>
     <string name="app_notification_sound_timeout_value_none">Без абмежаванняў</string>
     <string name="app_notification_sound_timeout_value_10_seconds">10 секунд</string>
     <string name="app_notification_sound_timeout_value_30_seconds">30 секунд</string>

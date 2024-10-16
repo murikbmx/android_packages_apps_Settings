@@ -39,8 +39,6 @@
     <string name="lockpattern_settings_enable_dots_title">Mostrar puntos do padrón</string>
     <string name="max_refresh_rate_title">Taxa de actualización máxima</string>
     <string name="min_refresh_rate_title">Taxa mínima de actualización </string>
-    <string name="show_navbar_hint_title">Suxerencia de navegación</string>
-    <string name="show_navbar_hint_summary">Amosar barra de suxestións de navegación na parte inferior da pantalla</string>
     <string name="app_notification_sound_timeout_title">Tempo mínimo entre os sons das notificacións</string>
     <string name="app_notification_sound_timeout_summary_template">Permitir os sons ou vibración non máis dunha vez cada <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Sen restrición</string>

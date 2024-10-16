@@ -64,8 +64,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">輕觸位於裝置側面的感應器。</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">輕觸位於手機側面的感應器。</string>
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">即使螢幕關閉，觸控感應器即可解鎖。接近感應器可防止意外解鎖。</string>
-    <string name="show_navbar_hint_title">導覽列提示</string>
-    <string name="show_navbar_hint_summary">在螢幕底部顯示導航列提示欄</string>
     <string name="app_notification_sound_timeout_title">通知音效之間的最短時間</string>
     <string name="app_notification_sound_timeout_summary_template">允許音效或震動每一次不超過 <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">無限制</string>

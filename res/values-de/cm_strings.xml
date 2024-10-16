@@ -64,8 +64,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Berühre den Sensor an der Seite deines Geräts.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Berühre den Sensor an der Seite deines Telefons.</string>
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Berühre den Sensor, um das Gerät auch bei ausgeschaltetem Bildschirm zu entsperren. Der Annäherungssensor verhindert versehentliches Entsperren.</string>
-    <string name="show_navbar_hint_title">Angedeutete Navigationsleiste</string>
-    <string name="show_navbar_hint_summary">Deutet Navigationsleiste am unteren Bildschirmrand an</string>
     <string name="app_notification_sound_timeout_title">Minimale Zeit zwischen Benachrichtigungstönen</string>
     <string name="app_notification_sound_timeout_summary_template">Töne und Vibrationen nur alle <xliff:g id="duration">%1$s</xliff:g> zulassen</string>
     <string name="app_notification_sound_timeout_value_none">Keine Beschränkung</string>

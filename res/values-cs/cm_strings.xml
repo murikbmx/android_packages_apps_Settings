@@ -65,8 +65,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Dotkněte se senzoru na straně zařízení.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Dotkněte se senzoru na boční straně telefonu.</string>
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Dotkněte se senzoru pro odemknutí, i když je obrazovka vypnutá. Senzor přiblížení zabraňuje náhodnému odemknutí.</string>
-    <string name="show_navbar_hint_title">Navigační nápověda</string>
-    <string name="show_navbar_hint_summary">Zobrazit navigační nápovědu ve spodní části obrazovky (tenký proužek)</string>
     <string name="app_notification_sound_timeout_title">Minimální doba mezi zvuky oznámení</string>
     <string name="app_notification_sound_timeout_summary_template">Povolit zvuky nebo vibrace ne více než jednou každých <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Bez omezení</string>

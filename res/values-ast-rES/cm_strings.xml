@@ -60,8 +60,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toca\'l sensor de la parte llateral del preséu.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toca\'l sensor de la parte llateral del teléfonu.</string>
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Toca\'l sensor pa desbloquiar, magar que la pantalla tea apagada. El sensor de proximidá impide\'l desbloquéu accidental.</string>
-    <string name="show_navbar_hint_title">Indicador de navegación</string>
-    <string name="show_navbar_hint_summary">Amuesa una barra indicadora de navegación no baxero de la pantalla</string>
     <string name="app_notification_sound_timeout_value_10_seconds">10 segundos</string>
     <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 minutu</string>

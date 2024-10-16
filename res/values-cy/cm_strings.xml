@@ -59,8 +59,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Cyffyrdda\'r synhwyrydd ar ochr dy lechen.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cyffyrdda\'r synhwyrydd ar ochr dy ddyfais.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Cyffyrdda\'r synhwyrydd ar ochr dy ffôn.</string>
-    <string name="show_navbar_hint_title">Awgrymiad llywio</string>
-    <string name="show_navbar_hint_summary">Dangos bar awgrymiadau llywio ar waelod y sgrin</string>
     <string name="app_notification_sound_timeout_title">Y cyfnod lleiaf o amser rhwng seiniau hysbysiadau</string>
     <string name="app_notification_sound_timeout_summary_template">Peidio â chaniatáu synau na dirgrynu yn amlach nag unwaith pob <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Dim cyfyngiad</string>

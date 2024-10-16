@@ -64,8 +64,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Érintse meg a szenzort készüléke oldalán.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Érintse meg a szenzort telefonja oldalán.</string>
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Feloldáshoz érintse meg az érzékelőt, még akkor is, ha a képernyő ki van kapcsolva.  A közelségérzékelő megakadályozza a véletlen feloldást.</string>
-    <string name="show_navbar_hint_title">Navigációs tipp</string>
-    <string name="show_navbar_hint_summary">A navigáció ajánlásait a képernyő alján jeleníti meg</string>
     <string name="app_notification_sound_timeout_title">Értesítési hangok közötti minimum időtartam</string>
     <string name="app_notification_sound_timeout_summary_template">Hang vagy rezgés ismétlődésének engedélyezése: <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Nincs korlátozás</string>

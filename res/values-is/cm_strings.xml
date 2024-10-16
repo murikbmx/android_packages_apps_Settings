@@ -64,8 +64,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Snertu lesarann á hlið tækisins.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Snertu lesarann á hlið símans.</string>
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Snertu skynjarann til að aflæsa, jafnvel þegar slökkt er á skjá. Nálægðarskynjari kemur í veg fyrir aflæsingu fyrir slysni.</string>
-    <string name="show_navbar_hint_title">Ábending við flakk</string>
-    <string name="show_navbar_hint_summary">Birta stiku með ábendingum um flakk neðst á skjánum</string>
     <string name="app_notification_sound_timeout_title">Lágmarkstími milli tilkynningahljóða</string>
     <string name="app_notification_sound_timeout_summary_template">Leyfa hljóð eða titring ekki oftar en einu sinni á <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Engar takmarkanir</string>

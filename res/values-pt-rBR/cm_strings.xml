@@ -64,8 +64,6 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toque no sensor na lateral do seu dispositivo.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toque no sensor na lateral do seu telefone.</string>
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Toque no sensor para desbloquear, mesmo quando a tela estiver desligada. O sensor de proximidade impede o desbloqueio acidental.</string>
-    <string name="show_navbar_hint_title">Dica de navegação</string>
-    <string name="show_navbar_hint_summary">Mostrar barra de dicas de navegação na parte inferior da tela</string>
     <string name="app_notification_sound_timeout_title">Tempo mínimo entre sons de notificação</string>
     <string name="app_notification_sound_timeout_summary_template">Permitir sons ou vibrações apenas uma vez a cada <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Sem restrição</string>
