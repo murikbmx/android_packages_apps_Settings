@@ -126,4 +126,8 @@
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Игнорировать флаги безопасности окна</string>
     <string name="ignore_window_secure_summary">Снимите ограничения на скриншоты и записи экрана для всех приложений. Это может быть удобно в некоторых случаях, но может привести к утечкам конфиденциальной информации</string>
+    
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Полноэкранная навигация</string>
+    <string name="immersive_navigation_summary">Скрыть панель навигации</string>
 </resources>
