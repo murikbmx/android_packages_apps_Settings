@@ -226,4 +226,8 @@
     <string name="accessibility_slider_haptics_category_title">Sliders</string>
     <string name="accessibility_brightness_slider_haptic_title">Brightness slider haptic</string>
     <string name="accessibility_volume_dialog_haptic_title">Volume slider haptic</string>
+    
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
 </resources>
