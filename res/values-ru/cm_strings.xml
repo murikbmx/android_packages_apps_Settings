@@ -132,4 +132,8 @@
     
     <string name="notification_sound_vib_screen_on_title">Громкие уведомления</string>
     <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при входящих уведомлениях, если экран включен</string>
+    
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Игнорировать флаги безопасности окна</string>
+    <string name="ignore_window_secure_summary">Убрать ограничения на скриншоты и записи экрана для всех приложений. Это может быть удобно в некоторых случаях, но может привести к утечкам конфиденциальной информации.</string>
 </resources>
