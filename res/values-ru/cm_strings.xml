@@ -120,4 +120,7 @@
     <string name="battery_design_capacity_summary">%1$d mAh</string>
     <string name="battery_maximum_capacity">Максимальная емкость</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Игнорировать флаги безопасности окна</string>
+    <string name="ignore_window_secure_summary">Убрать ограничения на скриншоты и записи экрана для всех приложений. Это может быть удобно в некоторых случаях, но может привести к утечкам конфиденциальной информации.</string>
 </resources>
