@@ -32,6 +32,7 @@ import com.android.settingslib.spa.widget.dialog.AlertDialogButton
 import com.android.settingslib.spa.widget.dialog.rememberAlertDialogPresenter
 import com.android.settingslib.spaprivileged.framework.common.devicePolicyManager
 import com.android.settingslib.spaprivileged.framework.common.userManager
+import com.android.settingslib.spaprivileged.model.app.installed
 import com.android.settingslib.spaprivileged.model.app.isDisabledUntilUsed
 import com.android.settingslib.Utils as SettingsLibUtils
 
@@ -48,7 +49,7 @@ class AppDisableButton(
 
     @Composable
     fun getActionButton(app: ApplicationInfo): ActionButton? {
-        if (!app.isSystemApp) return null
+        if (!app.installed) return null
 
         return when {
             app.enabled && !app.isDisabledUntilUsed -> {
@@ -63,6 +64,8 @@ class AppDisableButton(
      * Gets whether a package can be disabled.
      */
     private fun ApplicationInfo.canBeDisabled(): Boolean = when {
+        !isSystemApp -> appButtonRepository.isAllowUninstallOrArchive(context, this)
+        
         // Try to prevent the user from bricking their phone by not allowing disabling of apps
         // signed with the system certificate.
         isSignedWithPlatformKey -> false
@@ -99,7 +102,11 @@ class AppDisableButton(
             // Currently we apply the same device policy for both the uninstallation and disable
             // button.
             if (!appButtonRepository.isUninstallBlockedByAdmin(app)) {
-                dialogPresenter.open()
+                if (app.isSystemApp) {
+                    dialogPresenter.open()
+                } else {
+                    packageInfoPresenter.disable()
+                }
             }
         }
     }
