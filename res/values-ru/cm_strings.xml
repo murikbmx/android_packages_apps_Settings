@@ -122,4 +122,7 @@
     <string name="app_volume">Громкость приложения</string>
     <string name="app_volume_title">Регулировка громкости для каждого приложения</string>
     <string name="app_volume_summary">Отображение кнопки громкости для каждого приложения в диалоговом окне громкости</string>
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Быстрые настройки</string>
+    <string name="show_qs_on_secure_keyguard_summary">Разрешить переключение быстрых настроек на защищенном экране блокировки</string>
 </resources>
