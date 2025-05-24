@@ -28,6 +28,11 @@
     <string name="timeout_summary_2hours">2 часа</string>
     <string name="timeout_summary_4hours">4 часа</string>
     <string name="timeout_summary_8hours">8 часов</string>
+    <string name="timeout_summary_12hours">12 часов</string>
+    <string name="timeout_summary_24hours">24 часов</string>
+    <string name="timeout_summary_36hours">36 часов</string>
+    <string name="timeout_summary_48hours">48 часов</string>
+    <string name="timeout_summary_72hours">72 часов</string>
 
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Время ожидания Bluetooth</string>
@@ -42,4 +47,8 @@
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi отключится через <xliff:g id="timeout_description">%1$s</xliff:g> если сеть не подключена</string>
     <string name="wifi_timeout_summary2">Отключенно</string>
+    
+    <string name="device_reboot_timeout_title">Автоматическая перезагрузка</string>
+    <string name="device_reboot_timeout_summary">Устройство автоматически перезагрузится, если оно не было разблокировано в течение последних 48 часов <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">Устройство не будет автоматически перезагружаться</string>
 </resources>
