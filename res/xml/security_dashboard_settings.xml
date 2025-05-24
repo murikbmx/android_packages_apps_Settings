@@ -60,7 +60,6 @@
             android:title="@string/security_settings_biometric_preference_title"
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_biometric_settings" />
-            
     </PreferenceCategory>
 
     <Preference
@@ -73,4 +72,3 @@
         settings:keywords="@string/security_advanced_settings_keywords" />
 
 </PreferenceScreen>
-
