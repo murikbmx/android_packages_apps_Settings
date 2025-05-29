@@ -228,4 +228,8 @@
     
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
+    
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound when screen is on</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
