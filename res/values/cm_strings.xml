@@ -25,6 +25,11 @@
     <!-- Alternative: dns.adguard.com -->
     <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
     
+    <!-- Private DNS -->
+    <string name="private_dns_mode_adguard" translatable="false">Comss DNS</string>
+    <!-- Alternative: dns.comss.one -->
+    <string name="private_dns_hostname_adguard" translatable="false">dns.comss.one</string>
+    
     <!-- Advanced keyboard settings -->
     <string name="keyboard_extras_title">Extras</string>
     <string name="advanced_keyboard_settings_title">Advanced settings</string>

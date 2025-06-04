@@ -68,6 +68,7 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
     // Only used in Settings, update on additions to ConnectivitySettingsUtils
     private static final int PRIVATE_DNS_MODE_CLOUDFLARE = 4;
     private static final int PRIVATE_DNS_MODE_ADGUARD = 5;
+    private static final int PRIVATE_DNS_MODE_COMSS = 6;
 
     private final Handler mHandler;
     private final ContentObserver mSettingsObserver;
@@ -135,6 +136,7 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
                 return res.getString(com.android.settingslib.R.string.private_dns_mode_off);
             case PRIVATE_DNS_MODE_CLOUDFLARE:
             case PRIVATE_DNS_MODE_ADGUARD:
+            case PRIVATE_DNS_MODE_COMSS:
             case PRIVATE_DNS_MODE_OPPORTUNISTIC:
                 return dnsesResolved ? res.getString(R.string.private_dns_mode_on)
                         : res.getString(
@@ -155,6 +157,11 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
                         res.getString(R.string.private_dns_hostname_adguard);
                 if (privateDnsHostname.equals(adguardHostname)) {
                     return res.getString(R.string.private_dns_mode_adguard);
+                }
+                final String comssHostname =
+                        res.getString(R.string.private_dns_hostname_comss);
+                if (privateDnsHostname.equals(comssHostname)) {
+                    return res.getString(R.string.private_dns_mode_comss);
                 }
                 return PrivateDnsModeDialogPreference.getHostnameFromSettings(cr);
         }
