@@ -132,7 +132,4 @@
     <string name="increasing_ring_volume_option_title">Увеличение громкости звонка</string>
     <string name="increasing_ring_min_volume_title">Начальная громкость</string>
     <string name="increasing_ring_ramp_up_time_title">Время нарастания громкости</string>
-    <!-- General -->
-    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
-    <string name="longpress_to_clipboard">Долгое нажатие для копирования</string>
 </resources>
