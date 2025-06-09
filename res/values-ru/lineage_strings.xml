@@ -42,23 +42,4 @@
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi отключится через <xliff:g id="timeout_description">%1$s</xliff:g> если сеть не подключена</string>
     <string name="wifi_timeout_summary2">Отключенно</string>
-    
-    <!-- WiFi Hotspot -->
-    <string name="wifi_hotspot_hidden_ssid_title">Скрытая сеть</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Имя вашей точки доступа не будет отображаться в списке доступных Wi‑Fi сетей</string>
-    <string name="wifi_hotspot_client_manager_title">Подключённые устройства</string>
-    <string name="wifi_hotspot_client_manager_summary">Просмотр и управление устройствами, подключёнными к точке доступа</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">Просмотр устройств, подключённых к точке доступа</string>
-    <string name="wifi_hotspot_client_limit_title">Ограничение количества подключений</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">Заблокированные устройства</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Подключённые устройства</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Заблокировать устройство</string>
-    <string name="wifi_hotspot_block_client_dialog_text">Это действие отключит «<xliff:g id="device_name">%1$s</xliff:g>» от точки доступа и добавит его в чёрный список</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Разблокировать устройство</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">Устройство «<xliff:g id="device_name">%1$s</xliff:g>» сможет снова подключаться к этой точке доступа</string>
-    <string name="wifi_hotspot_client_manager_footer_text">Список клиентов пока пуст. Подключённые и заблокированные устройства будут отображаться здесь</string>
-    <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">К этой точке доступа может быть подключено до <xliff:g id="device_num">%1$d</xliff:g> устройства</item>
-        <item quantity="one">К этой точке доступа может быть подключено до <xliff:g id="device_num">%1$d</xliff:g> устройств</item>
-    </plurals>
 </resources>
