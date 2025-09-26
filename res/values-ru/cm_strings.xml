@@ -128,9 +128,6 @@
     <string name="back_gesture_inset_scale_left_summary">Отключить жест «Назад» с левой стороны экрана</string>
     <string name="back_gesture_inset_scale_right_title">Правый жест назад</string>
     <string name="back_gesture_inset_scale_right_summary">Отключить жест «Назад» с правой стороны экрана</string>
-    <!-- Access QS on lockscreen -->
-    <string name="show_qs_on_secure_keyguard_title">Быстрые настройки</string>
-    <string name="show_qs_on_secure_keyguard_summary">Разрешить переключение быстрых настроек на защищенном экране блокировки</string>
     <!-- Annoying Notifications -->
     <string name="notification_sound_vib_screen_on_title">Звук уведомления при включенном экране</string>
     <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию для уведомлений при включенном экране</string>
