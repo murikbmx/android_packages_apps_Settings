@@ -207,4 +207,8 @@
     <string name="back_gesture_inset_scale_left_summary">Disable back gesture from left side of the screen</string>
     <string name="back_gesture_inset_scale_right_title">Right back gesture</string>
     <string name="back_gesture_inset_scale_right_summary">Disable back gesture from right side of the screen</string>
+    
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
+    <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
 </resources>
