@@ -207,4 +207,7 @@
     <string name="back_gesture_inset_scale_left_summary">Disable back gesture from left side of the screen</string>
     <string name="back_gesture_inset_scale_right_title">Right back gesture</string>
     <string name="back_gesture_inset_scale_right_summary">Disable back gesture from right side of the screen</string>
+    
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>

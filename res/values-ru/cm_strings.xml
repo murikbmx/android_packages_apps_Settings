@@ -116,4 +116,6 @@
     <string name="back_gesture_inset_scale_left_summary">Отключить жест «Назад» с левой стороны экрана</string>
     <string name="back_gesture_inset_scale_right_title">Правый жест назад</string>
     <string name="back_gesture_inset_scale_right_summary">Отключить жест «Назад» с правой стороны экрана</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Информация о радио</string>
 </resources>
