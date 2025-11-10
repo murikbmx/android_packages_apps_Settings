@@ -113,4 +113,36 @@
     <string name="back_gesture_inset_scale_left_summary">Отключить жест «Назад» с левой стороны экрана</string>
     <string name="back_gesture_inset_scale_right_title">Правый жест назад</string>
     <string name="back_gesture_inset_scale_right_summary">Отключить жест «Назад» с правой стороны экрана</string>
+    
+    <!-- Автоматическое отключение Wi-Fi и Bluetooth -->
+    <string name="wifi_timeout">Тайм-аут Wi-Fi</string>
+    <string name="wifi_timeout_summary">Не отключать Wi-Fi автоматически</string>
+    <string name="wifi_timeout_summary_auto">Wi-Fi будет отключён через <xliff:g id="timeout_description">%1$s</xliff:g> если не найдено подключений</string>
+    <string name="bluetooth_timeout">Тайм-аут Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Не отключать Bluetooth автоматически</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth будет отключён через <xliff:g id="timeout_description">%1$s</xliff:g> если нет подключённых устройств</string>
+	    <!-- Custom Timeouts -->
+    <string name="custom_timeout_summary_never">Никогда</string>
+    <string name="custom_timeout_summary_5secs">5 секунд</string>
+    <string name="custom_timeout_summary_10secs">10 секунд</string>
+    <string name="custom_timeout_summary_15secs">15 секунд</string>
+    <string name="custom_timeout_summary_30secs">30 секунд</string>
+    <string name="custom_timeout_summary_1min">1 минута</string>
+    <string name="custom_timeout_summary_2mins">2 минуты</string>
+    <string name="custom_timeout_summary_5mins">5 минут</string>
+    <string name="custom_timeout_summary_10mins">10 минуты</string>
+    <string name="custom_timeout_summary_20mins">20 минуты</string>
+    <string name="custom_timeout_summary_30mins">30 минуты</string>
+    <string name="custom_timeout_summary_1hour">1 час</string>
+    <string name="custom_timeout_summary_2hours">2 часа</string>
+    <string name="custom_timeout_summary_4hours">4 часа</string>
+    <string name="custom_timeout_summary_8hours">8 часов</string>
+    <string name="custom_timeout_summary_12hours">12 часов</string>
+    <string name="custom_timeout_summary_24hours">24 часа</string>
+    <string name="custom_timeout_summary_36hours">36 часов</string>
+    <string name="custom_timeout_summary_48hours">48 часов</string>
+    <string name="custom_timeout_summary_72hours">72 часа</string>
+
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1 час (по умолчанию)</string>
 </resources>
