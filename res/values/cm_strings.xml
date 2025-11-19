@@ -242,4 +242,8 @@
 
     <!-- Default Timeouts -->
     <string name="custom_timeout_summary_1hour_def">1 hour (Default)</string>
+    
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
+    <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
 </resources>

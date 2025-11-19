@@ -149,4 +149,8 @@
 
     <!-- Default Timeouts -->
     <string name="custom_timeout_summary_1hour_def">1 час (по умолчанию)</string>
+    
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Быстрые настройки</string>
+    <string name="show_qs_on_secure_keyguard_summary">Разрешить переключение быстрых настроек на защищённом экране блокировки</string>
 </resources>
