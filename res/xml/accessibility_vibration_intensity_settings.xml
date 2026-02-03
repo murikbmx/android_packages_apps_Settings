@@ -85,4 +85,20 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="vibration_category_sliders"
+        android:title="@string/accessibility_slider_haptics_category_title">
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="qs_brightness_slider_haptic"
+            android:title="@string/accessibility_brightness_slider_haptic_title"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="volume_dialog_haptic_feedback"
+            android:title="@string/accessibility_volume_dialog_haptic_title"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

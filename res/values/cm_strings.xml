@@ -221,4 +221,9 @@
     <!-- Strict location redaction setting -->
     <string name="strict_location_redaction_title">Redact location data when sharing media</string>
     <string name="strict_location_redaction_description">Only galleries and file managers may read location metadata from your photos and media. (Third-party apps must have All Files Access or Media Management permissions.)</string>
+
+     <!-- Vibration settings for sliders -->
+    <string name="accessibility_slider_haptics_category_title">Sliders</string>
+    <string name="accessibility_brightness_slider_haptic_title">Brightness slider haptic</string>
+    <string name="accessibility_volume_dialog_haptic_title">Volume slider haptic</string>
 </resources>
