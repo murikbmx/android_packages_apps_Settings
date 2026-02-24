@@ -129,4 +129,7 @@
     <!-- Strict location redaction setting -->
     <string name="strict_location_redaction_title">Удалять данные о местоположении при обмене медиа</string>
     <string name="strict_location_redaction_description">Только галереи и файловые менеджеры смогут считывать метаданные о местоположении из ваших фото и видео. (Сторонним приложениям потребуются права «Доступ ко всем файлам» или «Управление медиафайлами».)</string>
+    
+    <string name="notification_sound_vib_screen_on_title">Громкие уведомления</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при входящих уведомлениях, если экран включен</string>
 </resources>
