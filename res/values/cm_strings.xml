@@ -236,4 +236,7 @@
     <string name="back_gesture_inset_scale_left_summary">Disable back gesture from left side of the screen</string>
     <string name="back_gesture_inset_scale_right_title">Right back gesture</string>
     <string name="back_gesture_inset_scale_right_summary">Disable back gesture from right side of the screen</string>
+    
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 </resources>

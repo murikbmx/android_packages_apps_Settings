@@ -141,4 +141,7 @@
     <string name="back_gesture_inset_scale_left_summary">Отключить жест «Назад» с левой стороны экрана</string>
     <string name="back_gesture_inset_scale_right_title">Правый жест назад</string>
     <string name="back_gesture_inset_scale_right_summary">Отключить жест «Назад» с правой стороны экрана</string>
+    
+    <string name="three_finger_gesture">Снимок экрана</string>
+    <string name="three_finger_gesture_summary">Жест вниз тремя пальцами</string>
 </resources>
