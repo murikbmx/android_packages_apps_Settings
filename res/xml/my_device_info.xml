@@ -102,6 +102,16 @@
         android:selectable="false"
         android:title="@string/my_device_info_device_details_category_title">
 
+        <!-- SIM status -->
+        <Preference
+            android:key="sim_status"
+            android:order="19"
+            android:title="@string/sim_status_title"
+            settings:keywords="@string/keywords_sim_status"
+            android:summary="@string/summary_placeholder"
+            settings:isPreferenceVisible="@bool/config_show_sim_info"
+            settings:controller="com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController"/>
+
         <!-- Model & hardware -->
         <Preference
             android:key="device_model"
@@ -116,7 +126,7 @@
         <!-- EID -->
         <com.android.settings.deviceinfo.simstatus.SimEidInfoPreference
             android:key="eid_info"
-            android:order="18"
+            android:order="31"
             android:title="@string/status_eid"
             android:positiveButtonText="@string/dlg_ok"
             android:dialogLayout="@layout/dialog_eid_status"
@@ -124,16 +134,6 @@
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.simstatus.SimEidPreferenceController"/>
 
-        <!-- SIM status -->
-        <Preference
-            android:key="sim_status"
-            android:order="18"
-            android:title="@string/sim_status_title"
-            settings:keywords="@string/keywords_sim_status"
-            android:summary="@string/summary_placeholder"
-            settings:isPreferenceVisible="@bool/config_show_sim_info"
-            settings:controller="com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController"/>
-            
         <!-- IMEI -->
         <Preference
             android:key="imei_info"
