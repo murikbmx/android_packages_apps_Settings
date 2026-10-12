@@ -126,4 +126,8 @@
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi выключится через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключения к сети</string>
     <string name="wifi_timeout_summary2">Отключено</string>
+    
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Игнорировать флаги безопасности окна</string>
+    <string name="ignore_window_secure_summary">Убрать ограничения на скриншоты и записи экрана для всех приложений. Это может быть удобно в некоторых случаях, но может привести к утечкам конфиденциальной информации.</string>
 </resources>
