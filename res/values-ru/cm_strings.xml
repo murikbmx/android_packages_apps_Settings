@@ -106,6 +106,12 @@
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Игнорировать флаги безопасности окна</string>
     <string name="ignore_window_secure_summary">Убрать ограничения на скриншоты и записи экрана для всех приложений. Это может быть удобно в некоторых случаях, но может привести к утечкам конфиденциальной информации.</string>
+    
+    <!-- Back gesture -->
+    <string name="back_gesture_inset_scale_left_title">Левый жест назад</string>
+    <string name="back_gesture_inset_scale_left_summary">Отключить жест «Назад» с левой стороны экрана</string>
+    <string name="back_gesture_inset_scale_right_title">Правый жест назад</string>
+    <string name="back_gesture_inset_scale_right_summary">Отключить жест «Назад» с правой стороны экрана</string>
     <string name="face_enrolling_close_to_continue">Сложить устройство во время настройки</string>
     <string name="face_enrolling_close_to_continue_description">Устройство должно быть сложено, чтобы настроить или использовать функцию разблокировки лицом</string>
     <string name="face_enrolling_do_it_later">Отложить</string>
