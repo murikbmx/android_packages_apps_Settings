@@ -236,4 +236,11 @@
     <!-- Gesture navigation: keyboard space -->
     <string name="ime_nav_bar_space_hidden_title">Hide space under keyboard</string>
     <string name="ime_nav_bar_space_hidden_summary">Remove the empty bar under the keyboard. The swipe up gesture is not affected</string>
+
+    <!-- Lock screen: theft protection -->
+    <string name="lockscreen_theft_protection_title">Theft protection</string>
+    <string name="lockscreen_power_menu_disabled_title">Unlock to power off</string>
+    <string name="lockscreen_power_menu_disabled_summary">Ask to unlock before showing the power menu on the lock screen, so a stolen phone can\'t be turned off right away</string>
+    <string name="lockscreen_qs_disabled_title">Unlock to use quick settings</string>
+    <string name="lockscreen_qs_disabled_summary">Hide quick settings on the lock screen, so airplane mode and other toggles can\'t be used before unlocking</string>
 </resources>

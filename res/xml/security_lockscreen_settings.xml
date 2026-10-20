@@ -97,6 +97,23 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="lockscreen_theft_protection"
+        android:title="@string/lockscreen_theft_protection_title">
+
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="lockscreen_power_menu_disabled"
+            android:title="@string/lockscreen_power_menu_disabled_title"
+            android:summary="@string/lockscreen_power_menu_disabled_summary"
+            android:defaultValue="false" />
+
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="lockscreen_qs_disabled"
+            android:title="@string/lockscreen_qs_disabled_title"
+            android:summary="@string/lockscreen_qs_disabled_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="ambient_display_category_when_to_show"
         android:title="@string/ambient_display_category_triggers"
         settings:controller="com.android.settings.display.AmbientDisplayWhenToShowPreferenceController"
