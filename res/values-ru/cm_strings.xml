@@ -144,6 +144,10 @@
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Отключать Wi-Fi без подключения к сети через: <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="wifi_timeout_summary2">Отключено</string>
+
+    <!-- Gesture navigation: keyboard space -->
+    <string name="ime_nav_bar_space_hidden_title">Убрать место под клавиатурой</string>
+    <string name="ime_nav_bar_space_hidden_summary">Убрать пустую полосу под клавиатурой. На жест свайпа вверх не влияет</string>
     <string name="face_enrolling_close_to_continue">Сложить устройство во время настройки</string>
     <string name="face_enrolling_close_to_continue_description">Устройство должно быть сложено, чтобы настроить или использовать функцию разблокировки лицом</string>
     <string name="face_enrolling_do_it_later">Отложить</string>

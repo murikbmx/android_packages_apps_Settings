@@ -40,6 +40,11 @@
         android:summary="@string/show_navbar_hint_summary"
         android:defaultValue="true" />
 
+    <lineageos.preference.SecureSettingSwitchPreference
+        android:key="ime_nav_bar_space_hidden"
+        android:title="@string/ime_nav_bar_space_hidden_title"
+        android:summary="@string/ime_nav_bar_space_hidden_summary"
+        android:defaultValue="false" />
 
     <lineageos.preference.SecureSettingSwitchPreference
         android:key="back_gesture_inset_scale_left"
