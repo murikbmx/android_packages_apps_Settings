@@ -243,4 +243,8 @@
     <string name="lockscreen_power_menu_disabled_summary">Ask to unlock before showing the power menu on the lock screen, so a stolen phone can\'t be turned off right away</string>
     <string name="lockscreen_qs_disabled_title">Unlock to use quick settings</string>
     <string name="lockscreen_qs_disabled_summary">Hide quick settings on the lock screen, so airplane mode and other toggles can\'t be used before unlocking</string>
+
+    <!-- Lock screen: charging details -->
+    <string name="lockscreen_charging_details_title">Charging details</string>
+    <string name="lockscreen_charging_details_summary">Show the charging current, power and battery temperature on the lock screen</string>
 </resources>

@@ -153,6 +153,8 @@
     <string name="lockscreen_power_menu_disabled_summary">Просить разблокировать телефон перед показом меню питания на экране блокировки, чтобы украденный телефон нельзя было сразу выключить</string>
     <string name="lockscreen_qs_disabled_title">Быстрые настройки только после разблокировки</string>
     <string name="lockscreen_qs_disabled_summary">Скрывать быстрые настройки на экране блокировки, чтобы до разблокировки нельзя было включить режим полёта и другие переключатели</string>
+    <string name="lockscreen_charging_details_title">Подробности зарядки</string>
+    <string name="lockscreen_charging_details_summary">Показывать ток, мощность зарядки и температуру батареи на экране блокировки</string>
     <string name="face_enrolling_close_to_continue">Сложить устройство во время настройки</string>
     <string name="face_enrolling_close_to_continue_description">Устройство должно быть сложено, чтобы настроить или использовать функцию разблокировки лицом</string>
     <string name="face_enrolling_do_it_later">Отложить</string>
