@@ -152,4 +152,18 @@
     <!-- Status bar: network type over the signal icon -->
     <string name="status_bar_mobile_type_overlay_title">Маленький значок типа сети</string>
     <string name="status_bar_mobile_type_overlay_summary">Показывать тип сети (LTE, 5G) маленьким поверх значка сигнала в строке состояния</string>
+    <string name="status_bar_lte_icon_style_title">Значок LTE</string>
+    <string name="status_bar_lte_icon_style_carrier">Как у оператора</string>
+    <string name="lockscreen_theft_protection_title">Защита от кражи</string>
+    <string name="lockscreen_power_menu_disabled_title">Выключение только после разблокировки</string>
+    <string name="lockscreen_power_menu_disabled_summary">Просить разблокировать телефон перед показом меню питания на экране блокировки, чтобы украденный телефон нельзя было сразу выключить</string>
+    <string name="lockscreen_qs_disabled_title">Быстрые настройки только после разблокировки</string>
+    <string name="lockscreen_qs_disabled_summary">Скрывать быстрые настройки на экране блокировки, чтобы до разблокировки нельзя было включить режим полёта и другие переключатели</string>
+    <string name="lockscreen_charging_details_title">Подробности зарядки</string>
+    <string name="lockscreen_charging_details_summary">Показывать ток, мощность зарядки и температуру батареи на экране блокировки</string>
+    <string name="clipboard_auto_clear_title">Очищать буфер обмена</string>
+    <string name="clipboard_auto_clear_1_minute">Через 1 минуту</string>
+    <string name="clipboard_auto_clear_5_minutes">Через 5 минут</string>
+    <string name="clipboard_auto_clear_15_minutes">Через 15 минут</string>
+    <string name="clipboard_auto_clear_default">Через 1 час (по умолчанию)</string>
 </resources>

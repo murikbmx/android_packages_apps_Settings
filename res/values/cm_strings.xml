@@ -240,4 +240,28 @@
     <!-- Status bar: network type over the signal icon -->
     <string name="status_bar_mobile_type_overlay_title">Small network type icon</string>
     <string name="status_bar_mobile_type_overlay_summary">Show the network type (LTE, 5G) small over the signal icon in the status bar</string>
+
+    <!-- Status bar: LTE network type icon -->
+    <string name="status_bar_lte_icon_style_title">LTE icon</string>
+    <string name="status_bar_lte_icon_style_carrier">Carrier default</string>
+    <string name="status_bar_lte_icon_style_lte">LTE</string>
+    <string name="status_bar_lte_icon_style_4g">4G</string>
+
+    <!-- Lock screen: theft protection -->
+    <string name="lockscreen_theft_protection_title">Theft protection</string>
+    <string name="lockscreen_power_menu_disabled_title">Unlock to power off</string>
+    <string name="lockscreen_power_menu_disabled_summary">Ask to unlock before showing the power menu on the lock screen, so a stolen phone can\'t be turned off right away</string>
+    <string name="lockscreen_qs_disabled_title">Unlock to use quick settings</string>
+    <string name="lockscreen_qs_disabled_summary">Hide quick settings on the lock screen, so airplane mode and other toggles can\'t be used before unlocking</string>
+
+    <!-- Lock screen: charging details -->
+    <string name="lockscreen_charging_details_title">Charging details</string>
+    <string name="lockscreen_charging_details_summary">Show the charging current, power and battery temperature on the lock screen</string>
+
+    <!-- Privacy: clipboard auto clear -->
+    <string name="clipboard_auto_clear_title">Clear clipboard</string>
+    <string name="clipboard_auto_clear_1_minute">After 1 minute</string>
+    <string name="clipboard_auto_clear_5_minutes">After 5 minutes</string>
+    <string name="clipboard_auto_clear_15_minutes">After 15 minutes</string>
+    <string name="clipboard_auto_clear_default">After 1 hour (default)</string>
 </resources>

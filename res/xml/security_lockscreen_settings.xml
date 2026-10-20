@@ -94,6 +94,29 @@
             android:title="@string/lockscreen_double_line_clock_setting_toggle"
             android:summary="@string/lockscreen_double_line_clock_summary"
             settings:controller="com.android.settings.display.LockscreenClockPreferenceController" />
+
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="lockscreen_charging_details"
+            android:title="@string/lockscreen_charging_details_title"
+            android:summary="@string/lockscreen_charging_details_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="lockscreen_theft_protection"
+        android:title="@string/lockscreen_theft_protection_title">
+
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="lockscreen_power_menu_disabled"
+            android:title="@string/lockscreen_power_menu_disabled_title"
+            android:summary="@string/lockscreen_power_menu_disabled_summary"
+            android:defaultValue="false" />
+
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="lockscreen_qs_disabled"
+            android:title="@string/lockscreen_qs_disabled_title"
+            android:summary="@string/lockscreen_qs_disabled_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
