@@ -112,4 +112,36 @@
     <string name="back_gesture_inset_scale_left_summary">Отключить жест «Назад» с левой стороны экрана</string>
     <string name="back_gesture_inset_scale_right_title">Правый жест назад</string>
     <string name="back_gesture_inset_scale_right_summary">Отключить жест «Назад» с правой стороны экрана</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Скриншот свайпом</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами вниз, чтобы сделать скриншот</string>
+
+    <!-- Timeout entries -->
+    <string name="timeout_summary_never">Никогда</string>
+    <string name="timeout_summary_15secs">15 секунд</string>
+    <string name="timeout_summary_30secs">30 секунд</string>
+    <string name="timeout_summary_1min">1 минута</string>
+    <string name="timeout_summary_2mins">2 минуты</string>
+    <string name="timeout_summary_5mins">5 минут</string>
+    <string name="timeout_summary_10mins">10 минут</string>
+    <string name="timeout_summary_30mins">30 минут</string>
+    <string name="timeout_summary_1hour">1 час</string>
+    <string name="timeout_summary_2hours">2 часа</string>
+    <string name="timeout_summary_4hours">4 часа</string>
+    <string name="timeout_summary_8hours">8 часов</string>
+
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Автоотключение Bluetooth</string>
+
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Отключать Bluetooth без подключённых устройств через: <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="bluetooth_timeout_summary2">Не отключать Bluetooth автоматически</string>
+
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Автоматически отключать Wi-Fi</string>
+
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Отключать Wi-Fi без подключения к сети через: <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="wifi_timeout_summary2">Отключено</string>
 </resources>
