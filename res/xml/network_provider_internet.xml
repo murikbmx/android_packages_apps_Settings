@@ -119,4 +119,12 @@
         android:summary="@string/cellular_security_summary"
         android:order="30"
         settings:controller="com.android.settings.network.CellularSecurityPreferenceController"/>
+
+    <lineageos.preference.SecureSettingSwitchPreference
+        android:key="status_bar_mobile_type_overlay"
+        android:title="@string/status_bar_mobile_type_overlay_title"
+        android:summary="@string/status_bar_mobile_type_overlay_summary"
+        android:icon="@drawable/ic_network_cell"
+        android:order="35"
+        android:defaultValue="false" />
 </PreferenceScreen>

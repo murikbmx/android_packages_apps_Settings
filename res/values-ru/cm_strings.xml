@@ -144,4 +144,12 @@
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Отключать Wi-Fi без подключения к сети через: <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="wifi_timeout_summary2">Отключено</string>
+
+    <!-- Gesture navigation: keyboard space -->
+    <string name="ime_nav_bar_space_hidden_title">Убрать место под клавиатурой</string>
+    <string name="ime_nav_bar_space_hidden_summary">Убрать пустую полосу под клавиатурой. На жест свайпа вверх не влияет</string>
+
+    <!-- Status bar: network type over the signal icon -->
+    <string name="status_bar_mobile_type_overlay_title">Маленький значок типа сети</string>
+    <string name="status_bar_mobile_type_overlay_summary">Показывать тип сети (LTE, 5G) маленьким поверх значка сигнала в строке состояния</string>
 </resources>

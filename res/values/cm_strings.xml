@@ -232,4 +232,12 @@
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
     <string name="wifi_timeout_summary2">Disabled</string>
+
+    <!-- Gesture navigation: keyboard space -->
+    <string name="ime_nav_bar_space_hidden_title">Hide space under keyboard</string>
+    <string name="ime_nav_bar_space_hidden_summary">Remove the empty bar under the keyboard. The swipe up gesture is not affected</string>
+
+    <!-- Status bar: network type over the signal icon -->
+    <string name="status_bar_mobile_type_overlay_title">Small network type icon</string>
+    <string name="status_bar_mobile_type_overlay_summary">Show the network type (LTE, 5G) small over the signal icon in the status bar</string>
 </resources>
