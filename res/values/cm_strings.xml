@@ -238,18 +238,10 @@
     <string name="ime_nav_bar_space_hidden_summary">Remove the empty bar under the keyboard. The swipe up gesture is not affected</string>
 
     <!-- Status bar: network type over the signal icon -->
-    <string name="status_bar_mobile_type_overlay_title">Small network type icon</string>
-    <string name="status_bar_mobile_type_overlay_summary">Show the network type (LTE, 5G) small over the signal icon in the status bar</string>
 
     <!-- Status bar: LTE network type icon -->
-    <string name="status_bar_lte_icon_style_title">LTE icon</string>
-    <string name="status_bar_lte_icon_style_carrier">Carrier default</string>
-    <string name="status_bar_lte_icon_style_lte">LTE</string>
-    <string name="status_bar_lte_icon_style_4g">4G</string>
 
     <!-- Shade header: VoLTE / VoWiFi badge -->
-    <string name="shade_ims_status_title">VoLTE and VoWiFi in the shade</string>
-    <string name="shade_ims_status_summary">Show whether calls go over VoLTE or Wi-Fi calling next to the carrier name in the expanded notification shade</string>
 
     <!-- Lock screen: theft protection -->
     <string name="lockscreen_theft_protection_title">Theft protection</string>

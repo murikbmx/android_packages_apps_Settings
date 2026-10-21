@@ -119,15 +119,5 @@
     </string-array>
 
     <!-- How LTE is shown in the status bar -->
-    <string-array name="status_bar_lte_icon_style_entries" translatable="false">
-        <item>@string/status_bar_lte_icon_style_carrier</item>
-        <item>@string/status_bar_lte_icon_style_lte</item>
-        <item>@string/status_bar_lte_icon_style_4g</item>
-    </string-array>
 
-    <string-array name="status_bar_lte_icon_style_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
 </resources>
