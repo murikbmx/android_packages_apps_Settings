@@ -237,11 +237,8 @@
     <string name="ime_nav_bar_space_hidden_title">Hide space under keyboard</string>
     <string name="ime_nav_bar_space_hidden_summary">Remove the empty bar under the keyboard. The swipe up gesture is not affected</string>
 
-    <!-- Status bar: network type over the signal icon -->
 
-    <!-- Status bar: LTE network type icon -->
 
-    <!-- Shade header: VoLTE / VoWiFi badge -->
 
     <!-- Lock screen: theft protection -->
     <string name="lockscreen_theft_protection_title">Theft protection</string>
@@ -254,10 +251,4 @@
     <string name="lockscreen_charging_details_title">Charging details</string>
     <string name="lockscreen_charging_details_summary">Show the charging current, power and battery temperature on the lock screen</string>
 
-    <!-- Privacy: clipboard auto clear -->
-    <string name="clipboard_auto_clear_title">Clear clipboard</string>
-    <string name="clipboard_auto_clear_1_minute">After 1 minute</string>
-    <string name="clipboard_auto_clear_5_minutes">After 5 minutes</string>
-    <string name="clipboard_auto_clear_15_minutes">After 15 minutes</string>
-    <string name="clipboard_auto_clear_default">After 1 hour (default)</string>
 </resources>

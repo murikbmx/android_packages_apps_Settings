@@ -104,19 +104,7 @@
     </string-array>
 
     <!-- Clipboard auto clear timeouts, 0 uses the default of one hour -->
-    <string-array name="clipboard_auto_clear_entries" translatable="false">
-        <item>@string/clipboard_auto_clear_1_minute</item>
-        <item>@string/clipboard_auto_clear_5_minutes</item>
-        <item>@string/clipboard_auto_clear_15_minutes</item>
-        <item>@string/clipboard_auto_clear_default</item>
-    </string-array>
 
-    <string-array name="clipboard_auto_clear_values" translatable="false">
-        <item>60000</item>
-        <item>300000</item>
-        <item>900000</item>
-        <item>0</item>
-    </string-array>
 
     <!-- How LTE is shown in the status bar -->
 

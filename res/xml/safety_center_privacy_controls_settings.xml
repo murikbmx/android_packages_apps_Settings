@@ -86,14 +86,6 @@
             settings:controller="com.android.settings.privacy.ShowClipAccessNotificationPreferenceController"
             android:order="60" />
 
-        <!-- Clipboard auto clear -->
-        <ListPreference
-            android:key="clipboard_auto_clear_timeout"
-            android:title="@string/clipboard_auto_clear_title"
-            android:entries="@array/clipboard_auto_clear_entries"
-            android:entryValues="@array/clipboard_auto_clear_values"
-            settings:controller="com.android.settings.privacy.ClipboardAutoClearPreferenceController"
-            android:order="65" />
 
         <!-- Show passwords -->
         <SwitchPreferenceCompat
