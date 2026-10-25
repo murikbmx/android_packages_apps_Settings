@@ -251,4 +251,27 @@
     <string name="lockscreen_charging_details_title">Charging details</string>
     <string name="lockscreen_charging_details_summary">Show the charging current, power and battery temperature on the lock screen</string>
 
+
+    <!-- Backup: system settings -->
+    <string name="system_settings_backup_title">System settings</string>
+    <string name="system_settings_backup_summary">Save system settings and quick settings tiles to a file and restore them</string>
+    <string name="system_settings_backup_create_title">Back up now</string>
+    <string name="system_settings_backup_create_summary">Save the settings to a file of your choice</string>
+    <string name="system_settings_backup_restore_title">Restore</string>
+    <string name="system_settings_backup_restore_summary">Apply the settings from a backup file</string>
+    <string name="system_settings_backup_footer">Saves display, sound, gestures, accessibility, quick settings tiles and LineageOS settings. Apps, Wi‑Fi networks, the screen lock and developer options aren\'t included.</string>
+    <plurals name="system_settings_backup_done">
+        <item quantity="one">Saved %d setting</item>
+        <item quantity="other">Saved %d settings</item>
+    </plurals>
+    <string name="system_settings_backup_failed">Couldn\'t save the settings</string>
+    <string name="system_settings_restore_confirm_title">Restore settings?</string>
+    <string name="system_settings_restore_confirm_message">The current settings will be replaced with the ones from the backup. Some changes may only show after a restart.</string>
+    <string name="system_settings_restore_confirm_button">Restore</string>
+    <plurals name="system_settings_restore_done">
+        <item quantity="one">Restored %d setting</item>
+        <item quantity="other">Restored %d settings</item>
+    </plurals>
+    <string name="system_settings_restore_failed">Couldn\'t restore the settings. Make sure it\'s a settings backup file.</string>
+
 </resources>

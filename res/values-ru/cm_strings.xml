@@ -156,4 +156,28 @@
     <string name="lockscreen_qs_disabled_summary">Скрывать быстрые настройки на экране блокировки, чтобы до разблокировки нельзя было включить режим полёта и другие переключатели</string>
     <string name="lockscreen_charging_details_title">Подробности зарядки</string>
     <string name="lockscreen_charging_details_summary">Показывать ток, мощность зарядки и температуру батареи на экране блокировки</string>
+    <string name="system_settings_backup_title">Настройки системы</string>
+    <string name="system_settings_backup_summary">Сохранение настроек системы и быстрых настроек в файл и восстановление из него</string>
+    <string name="system_settings_backup_create_title">Создать копию</string>
+    <string name="system_settings_backup_create_summary">Сохранить настройки в выбранный файл</string>
+    <string name="system_settings_backup_restore_title">Восстановить</string>
+    <string name="system_settings_backup_restore_summary">Применить настройки из файла копии</string>
+    <string name="system_settings_backup_footer">Сохраняются экран, звук, жесты, спец. возможности, плитки быстрых настроек и настройки LineageOS. Приложения, сети Wi‑Fi, блокировка экрана и параметры разработчика не сохраняются.</string>
+    <plurals name="system_settings_backup_done">
+        <item quantity="one">Сохранена %d настройка</item>
+        <item quantity="few">Сохранено %d настройки</item>
+        <item quantity="many">Сохранено %d настроек</item>
+        <item quantity="other">Сохранено %d настройки</item>
+    </plurals>
+    <string name="system_settings_backup_failed">Не удалось сохранить настройки</string>
+    <string name="system_settings_restore_confirm_title">Восстановить настройки?</string>
+    <string name="system_settings_restore_confirm_message">Текущие настройки будут заменены настройками из копии. Некоторые изменения могут вступить в силу только после перезагрузки.</string>
+    <string name="system_settings_restore_confirm_button">Восстановить</string>
+    <plurals name="system_settings_restore_done">
+        <item quantity="one">Восстановлена %d настройка</item>
+        <item quantity="few">Восстановлено %d настройки</item>
+        <item quantity="many">Восстановлено %d настроек</item>
+        <item quantity="other">Восстановлено %d настройки</item>
+    </plurals>
+    <string name="system_settings_restore_failed">Не удалось восстановить настройки. Проверьте, что это файл копии настроек.</string>
 </resources>

@@ -75,6 +75,7 @@ import com.android.settings.applications.specialaccess.premiumsms.PremiumSmsAcce
 import com.android.settings.applications.specialaccess.vrlistener.VrListenerSettings;
 import com.android.settings.applications.specialaccess.zenaccess.ZenAccessDetails;
 import com.android.settings.backup.PrivacySettings;
+import com.android.settings.backup.SystemSettingsBackupFragment;
 import com.android.settings.backup.ToggleBackupSettingFragment;
 import com.android.settings.backup.UserBackupSettingsActivity;
 import com.android.settings.biometrics.combination.CombinedBiometricProfileSettings;
@@ -379,6 +380,7 @@ public class SettingsGateway {
             StylusUsiDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
+            SystemSettingsBackupFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             BatterySaverScheduleSettings.class.getName(),
             MobileNetworkListFragment.class.getName(),
