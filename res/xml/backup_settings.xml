@@ -23,6 +23,13 @@
     <Preference
         android:key="backup_settings" />
 
+    <!-- System settings and quick settings tiles saved to a file -->
+    <Preference
+        android:key="system_settings_backup"
+        android:title="@string/system_settings_backup_title"
+        android:summary="@string/system_settings_backup_summary"
+        android:fragment="com.android.settings.backup.SystemSettingsBackupFragment" />
+
     <!-- Backup settings provided by the manufacturer -->
     <Preference
         android:key="manufacturer_backup" />
