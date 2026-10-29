@@ -34,6 +34,8 @@ import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.widget.ButtonPreference;
 import com.android.settingslib.widget.SliderPreference;
 
+import com.google.android.material.slider.Slider;
+
 import java.text.NumberFormat;
 import java.util.Locale;
 
@@ -177,6 +179,16 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             Settings.Secure.putFloat(getContext().getContentResolver(), settingsKey, scale);
             pref.setSliderStateDescription(formatStateDescription(pref, (int) v));
             return true;
+        });
+        // Fade the indicator out once the slider is released.
+        pref.setExtraTouchListener(new Slider.OnSliderTouchListener() {
+            @Override
+            public void onStartTrackingTouch(Slider slider) {}
+
+            @Override
+            public void onStopTrackingTouch(Slider slider) {
+                mIndicatorView.setIndicatorWidth(0, key == LEFT_EDGE_SEEKBAR_KEY);
+            }
         });
     }
 
