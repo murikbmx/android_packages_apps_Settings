@@ -180,4 +180,18 @@
         <item quantity="other">Восстановлено %d настройки</item>
     </plurals>
     <string name="system_settings_restore_failed">Не удалось восстановить настройки. Проверьте, что это файл копии настроек.</string>
+
+    <!-- Panic fingerprint -->
+    <string name="panic_fingerprint_title">Тревожный палец</string>
+    <string name="panic_fingerprint_summary_on">Настроен</string>
+    <string name="panic_fingerprint_summary_off">Не настроен</string>
+    <string name="panic_fingerprint_message">Касание сенсора этим пальцем ничего не разблокирует. Экран тихо погаснет, и телефон перейдёт в режим блокировки: отпечаток и фейсконтроль будут отключены до ввода графического ключа, PIN-кода или пароля.</string>
+    <string name="panic_fingerprint_replace">Заменить</string>
+    <string name="panic_fingerprint_remove">Удалить</string>
+    <string name="panic_fingerprint_done">Готово</string>
+    <string name="panic_fingerprint_saved">Тревожный палец сохранён</string>
+    <string name="panic_fingerprint_removed">Тревожный палец удалён</string>
+    <string name="panic_fingerprint_not_saved">Новый отпечаток не добавлен</string>
+    <string name="panic_fingerprint_limit">Добавлено максимальное число отпечатков (%d). Сначала удалите один в разделе «Отпечаток пальца».</string>
+    <string name="panic_fingerprint_enroll">Зарегистрировать</string>
 </resources>

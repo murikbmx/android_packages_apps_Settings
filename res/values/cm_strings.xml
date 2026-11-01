@@ -274,4 +274,18 @@
     </plurals>
     <string name="system_settings_restore_failed">Couldn\'t restore the settings. Make sure it\'s a settings backup file.</string>
 
+
+    <!-- Panic fingerprint -->
+    <string name="panic_fingerprint_title">Panic finger</string>
+    <string name="panic_fingerprint_summary_on">Set up</string>
+    <string name="panic_fingerprint_summary_off">Not set up</string>
+    <string name="panic_fingerprint_message">Touching the sensor with this finger never unlocks anything. The screen silently turns off and the phone is locked down: fingerprint and face unlock stay disabled until your pattern, PIN or password is entered.</string>
+    <string name="panic_fingerprint_replace">Replace</string>
+    <string name="panic_fingerprint_remove">Remove</string>
+    <string name="panic_fingerprint_done">Done</string>
+    <string name="panic_fingerprint_saved">Panic finger saved</string>
+    <string name="panic_fingerprint_removed">Panic finger removed</string>
+    <string name="panic_fingerprint_not_saved">No new fingerprint was added</string>
+    <string name="panic_fingerprint_limit">You\'ve added the maximum number of fingerprints (%d). Remove one in Fingerprint settings first.</string>
+    <string name="panic_fingerprint_enroll">Register</string>
 </resources>
