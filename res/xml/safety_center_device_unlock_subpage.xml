@@ -69,6 +69,12 @@
         settings:safetySource="AndroidFaceUnlock"
         settings:profile="work_profile" />
 
+    <Preference
+        android:key="panic_fingerprint"
+        android:order="75"
+        android:title="@string/panic_fingerprint_title"
+        settings:controller="com.android.settings.biometrics.fingerprint.PanicFingerprintPreferenceController" />
+
     <com.android.settingslib.safetycenter.SafetySourcePreference
         android:key="android_wear_unlock_personal"
         android:order="80"
