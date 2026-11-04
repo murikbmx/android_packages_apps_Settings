@@ -194,4 +194,7 @@
     <string name="panic_fingerprint_not_saved">Новый отпечаток не добавлен</string>
     <string name="panic_fingerprint_limit">Добавлено максимальное число отпечатков (%d). Сначала удалите один в разделе «Отпечаток пальца».</string>
     <string name="panic_fingerprint_enroll">Зарегистрировать</string>
+    <string name="face_enrolling_close_to_continue">Сложить устройство во время настройки</string>
+    <string name="face_enrolling_close_to_continue_description">Устройство должно быть сложено, чтобы настроить или использовать функцию разблокировки лицом</string>
+    <string name="face_enrolling_do_it_later">Отложить</string>
 </resources>
