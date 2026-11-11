@@ -247,6 +247,10 @@
     <string name="status_bar_lte_icon_style_lte">LTE</string>
     <string name="status_bar_lte_icon_style_4g">4G</string>
 
+    <!-- Shade header: VoLTE / VoWiFi badge -->
+    <string name="shade_ims_status_title">VoLTE and VoWiFi in the shade</string>
+    <string name="shade_ims_status_summary">Show whether calls go over VoLTE or Wi-Fi calling next to the carrier name in the expanded notification shade</string>
+
     <!-- Lock screen: theft protection -->
     <string name="lockscreen_theft_protection_title">Theft protection</string>
     <string name="lockscreen_power_menu_disabled_title">Unlock to power off</string>

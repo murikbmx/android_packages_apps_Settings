@@ -154,6 +154,8 @@
     <string name="status_bar_mobile_type_overlay_summary">Показывать тип сети (LTE, 5G) маленьким поверх значка сигнала в строке состояния</string>
     <string name="status_bar_lte_icon_style_title">Значок LTE</string>
     <string name="status_bar_lte_icon_style_carrier">Как у оператора</string>
+    <string name="shade_ims_status_title">VoLTE и VoWiFi в шторке</string>
+    <string name="shade_ims_status_summary">Показывать рядом с названием оператора в раскрытой шторке, идут ли звонки через VoLTE или Wi-Fi</string>
     <string name="lockscreen_theft_protection_title">Защита от кражи</string>
     <string name="lockscreen_power_menu_disabled_title">Выключение только после разблокировки</string>
     <string name="lockscreen_power_menu_disabled_summary">Просить разблокировать телефон перед показом меню питания на экране блокировки, чтобы украденный телефон нельзя было сразу выключить</string>

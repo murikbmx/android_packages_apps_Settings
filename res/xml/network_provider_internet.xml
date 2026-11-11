@@ -136,4 +136,12 @@
         android:icon="@drawable/ic_network_cell"
         android:order="36"
         settings:controller="com.android.settings.network.LteIconStylePreferenceController" />
+
+    <lineageos.preference.SecureSettingSwitchPreference
+        android:key="shade_ims_status"
+        android:title="@string/shade_ims_status_title"
+        android:summary="@string/shade_ims_status_summary"
+        android:icon="@drawable/ic_network_cell"
+        android:order="37"
+        android:defaultValue="true" />
 </PreferenceScreen>
