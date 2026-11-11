@@ -148,6 +148,10 @@
     <!-- Gesture navigation: keyboard space -->
     <string name="ime_nav_bar_space_hidden_title">Убрать место под клавиатурой</string>
     <string name="ime_nav_bar_space_hidden_summary">Убрать пустую полосу под клавиатурой. На жест свайпа вверх не влияет</string>
+
+    <!-- Status bar: network type over the signal icon -->
+    <string name="status_bar_mobile_type_overlay_title">Маленький значок типа сети</string>
+    <string name="status_bar_mobile_type_overlay_summary">Показывать тип сети (LTE, 5G) маленьким поверх значка сигнала в строке состояния</string>
     <string name="lockscreen_theft_protection_title">Защита от кражи</string>
     <string name="lockscreen_power_menu_disabled_title">Выключение только после разблокировки</string>
     <string name="lockscreen_power_menu_disabled_summary">Просить разблокировать телефон перед показом меню питания на экране блокировки, чтобы украденный телефон нельзя было сразу выключить</string>
