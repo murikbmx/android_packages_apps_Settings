@@ -28,8 +28,9 @@ import com.android.settings.Utils;
 import com.android.settingslib.applications.ApplicationsState;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Filter to display only allowlisted apps on Cloned Apps page.
@@ -39,7 +40,7 @@ public class AppStateClonedAppsBridge extends AppStateBaseBridge{
     private static final String TAG = "ClonedAppsBridge";
 
     private final Context mContext;
-    private final List<String> mAllowedApps;
+    private volatile Set<String> mAllowedApps = new HashSet<>();
     private List<String> mCloneProfileApps = new ArrayList<>();
     private int mCloneUserId;
 
@@ -47,12 +48,11 @@ public class AppStateClonedAppsBridge extends AppStateBaseBridge{
             Callback callback) {
         super(appState, callback);
         mContext = context;
-        mAllowedApps = Arrays.asList(mContext.getResources()
-                .getStringArray(com.android.internal.R.array.cloneable_apps));
     }
 
     @Override
     protected void loadAllExtraInfo() {
+        mAllowedApps = CloneableApps.get(mContext);
         mCloneUserId = Utils.getCloneUserId(mContext);
         if (mCloneUserId != -1) {
             mCloneProfileApps = mContext.getPackageManager()
@@ -68,7 +68,7 @@ public class AppStateClonedAppsBridge extends AppStateBaseBridge{
         final List<ApplicationsState.AppEntry> allApps = mAppSession.getAllApps();
         for (int i = 0; i < allApps.size(); i++) {
             ApplicationsState.AppEntry app = allApps.get(i);
-            this.updateExtraInfo(app, app.info.packageName, app.info.uid);
+            applyExtraInfo(app, app.info.packageName);
         }
     }
 
@@ -76,6 +76,17 @@ public class AppStateClonedAppsBridge extends AppStateBaseBridge{
     protected void updateExtraInfo(AppEntry app, String pkg, int uid) {
         // Display package if allowlisted but not yet cloned.
         // Or if the app is present in clone profile alongwith being in allowlist.
+        if (!mAllowedApps.contains(pkg) && !app.isClonedProfile()
+                && CloneableApps.isCloneable(mContext, pkg)) {
+            // Newly installed app.
+            final Set<String> allowed = new HashSet<>(mAllowedApps);
+            allowed.add(pkg);
+            mAllowedApps = allowed;
+        }
+        applyExtraInfo(app, pkg);
+    }
+
+    private void applyExtraInfo(AppEntry app, String pkg) {
         if (mAllowedApps.contains(pkg)
                 && ((!mCloneProfileApps.contains(pkg) || (app.isClonedProfile())))) {
             app.extraInfo = Boolean.TRUE;

@@ -35,7 +35,7 @@ import com.android.settings.Utils;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.dashboard.profileselector.ProfileSelectFragment;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -81,9 +81,7 @@ public class ClonedAppsPreferenceController extends BasePreferenceController
             @Override
             protected Integer[] doInBackground(Void... unused) {
                 // Get list of allowlisted cloneable apps.
-                List<String> cloneableApps = Arrays.asList(
-                        mContext.getResources().getStringArray(
-                                com.android.internal.R.array.cloneable_apps));
+                List<String> cloneableApps = new ArrayList<>(CloneableApps.get(mContext));
                 List<String> primaryUserApps = mContext.getPackageManager()
                         .getInstalledPackagesAsUser(/* flags*/ 0, UserHandle.myUserId()).stream()
                         .map(x -> x.packageName).toList();
