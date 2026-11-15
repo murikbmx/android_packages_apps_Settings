@@ -19,6 +19,11 @@
     <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
     <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
     <string name="private_dns_hostname_cloudflare" translatable="false">one.one.one.one</string>
+    <!-- Private DNS presets that block ads and trackers -->
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard-dns.com</string>
+    <string name="private_dns_mode_mullvad_adblock" translatable="false">Mullvad DNS (Adblock)</string>
+    <string name="private_dns_hostname_mullvad_adblock" translatable="false">adblock.dns.mullvad.net</string>
 
     <!-- Advanced keyboard settings -->
     <string name="keyboard_extras_title">Extras</string>
