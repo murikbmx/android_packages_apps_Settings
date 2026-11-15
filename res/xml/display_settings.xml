@@ -253,6 +253,13 @@
             android:defaultValue="@*lineageos.platform:bool/config_proximityCheckOnWakeEnabledByDefault"
             settings:requiresConfig="@*lineageos.platform:bool/config_proximityCheckOnWake" />
 
+        <!-- Old CRT TV screen off effect -->
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="lineage_screen_off_crt"
+            android:title="@string/screen_off_crt_title"
+            android:summary="@string/screen_off_crt_summary"
+            android:defaultValue="false" />
+
         <!-- Double tap to sleep -->
         <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
