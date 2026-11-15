@@ -304,4 +304,7 @@
     <string name="panic_fingerprint_not_saved">No new fingerprint was added</string>
     <string name="panic_fingerprint_limit">You\'ve added the maximum number of fingerprints (%d). Remove one in Fingerprint settings first.</string>
     <string name="panic_fingerprint_enroll">Register</string>
+
+    <!-- Radio info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>
