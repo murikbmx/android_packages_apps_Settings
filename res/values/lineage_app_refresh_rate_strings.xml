@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Per-app display refresh rate -->
+    <string name="app_refresh_rate_title">Refresh rate per app</string>
+    <string name="app_refresh_rate_summary">Choose the display refresh rate used while an app is in front</string>
+    <string name="app_refresh_rate_default">Default</string>
+    <!-- Refresh rate entry, e.g. "120 Hz" -->
+    <string name="app_refresh_rate_hz"><xliff:g id="rate" example="120">%1$d</xliff:g> Hz</string>
+</resources>
