@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Lock screen music visualizer -->
+    <string name="lockscreen_visualizer_title">Визуализатор музыки</string>
+    <string name="lockscreen_visualizer_summary">Показывать спектр играющей музыки внизу заблокированного экрана</string>
+
+    <!-- Lock screen album art -->
+    <string name="lockscreen_media_art_title">Обложка альбома как обои</string>
+    <string name="lockscreen_media_art_summary">Показывать обложку играющей музыки обоями заблокированного экрана. Пропадает, когда музыка на паузе</string>
+</resources>

@@ -584,6 +584,7 @@ public final class SystemSettingsBackup {
     private static final String[] EXTRA_LINEAGE_SECURE_KEYS = {
             LineageSettings.Secure.QS_SHOW_BRIGHTNESS_SLIDER,
             LineageSettings.Secure.LOCKSCREEN_VISUALIZER_ENABLED,
+            LineageSettings.Secure.LOCKSCREEN_MEDIA_METADATA,
     };
 
     private static final String[] EXTRA_LINEAGE_GLOBAL_KEYS = {
