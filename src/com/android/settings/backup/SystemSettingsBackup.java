@@ -557,6 +557,9 @@ public final class SystemSettingsBackup {
     // User facing settings that Android doesn't back up
     private static final String[] EXTRA_SYSTEM_KEYS = {
             Settings.System.THREE_FINGER_GESTURE,
+            // Old TV screen off effect and refresh rate per app
+            "lineage_screen_off_crt",
+            "lineage_app_refresh_rate",
     };
 
     private static final String[] EXTRA_SECURE_KEYS = {
@@ -573,6 +576,22 @@ public final class SystemSettingsBackup {
             "lockscreen_charging_details",
             "lockscreen_power_menu_disabled",
             "lockscreen_qs_disabled",
+            Settings.Secure.IME_NAV_BAR_SPACE_HIDDEN,
+            Settings.Secure.STATUS_BAR_MOBILE_TYPE_OVERLAY,
+            Settings.Secure.STATUS_BAR_LTE_ICON_STYLE,
+            Settings.Secure.SHADE_IMS_STATUS,
+            // Battery ring around the front camera
+            "lineage_battery_ring",
+            "lineage_battery_ring_low",
+            "lineage_battery_ring_screen_on",
+            "lineage_battery_ring_lockscreen",
+            "lineage_battery_ring_aod",
+            "lineage_battery_ring_color",
+            "lineage_battery_ring_replace_icon",
+            // Edge sidebar
+            "lineage_sidebar_enabled",
+            "lineage_sidebar_apps",
+            "lineage_sidebar_handle_y",
     };
 
     private static final String[] EXTRA_GLOBAL_KEYS = {
