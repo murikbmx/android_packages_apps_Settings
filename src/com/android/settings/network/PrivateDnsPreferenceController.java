@@ -149,6 +149,14 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
                 if (privateDnsHostname.equals(cloudflareHostname)) {
                     return res.getString(R.string.private_dns_mode_cloudflare);
                 }
+                if (privateDnsHostname.equals(
+                        res.getString(R.string.private_dns_hostname_adguard))) {
+                    return res.getString(R.string.private_dns_mode_adguard);
+                }
+                if (privateDnsHostname.equals(
+                        res.getString(R.string.private_dns_hostname_mullvad_adblock))) {
+                    return res.getString(R.string.private_dns_mode_mullvad_adblock);
+                }
                 return privateDnsHostname;
         }
         return "";

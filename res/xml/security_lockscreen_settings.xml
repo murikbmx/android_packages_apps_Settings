@@ -100,6 +100,18 @@
             android:title="@string/lockscreen_charging_details_title"
             android:summary="@string/lockscreen_charging_details_summary"
             android:defaultValue="false" />
+
+        <lineageos.preference.LineageSecureSettingSwitchPreference
+            android:key="lockscreen_visualizer"
+            android:title="@string/lockscreen_visualizer_title"
+            android:summary="@string/lockscreen_visualizer_summary"
+            android:defaultValue="false" />
+
+        <lineageos.preference.LineageSecureSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/lockscreen_media_art_title"
+            android:summary="@string/lockscreen_media_art_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory

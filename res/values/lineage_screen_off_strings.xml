@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Old CRT TV screen off effect -->
+    <string name="screen_off_crt_title">Old TV screen off effect</string>
+    <string name="screen_off_crt_summary">The picture collapses to a line and a dot like an old CRT TV when the screen turns off. Not shown with the always-on display</string>
+</resources>

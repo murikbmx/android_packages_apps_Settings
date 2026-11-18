@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Lock screen music visualizer -->
+    <string name="lockscreen_visualizer_title">Music visualizer</string>
+    <string name="lockscreen_visualizer_summary">Show the spectrum of the playing music at the bottom of the lock screen</string>
+
+    <!-- Lock screen album art -->
+    <string name="lockscreen_media_art_title">Album art as wallpaper</string>
+    <string name="lockscreen_media_art_summary">Show the album art of the playing music as the lock screen wallpaper. Hidden when the music is paused</string>
+</resources>

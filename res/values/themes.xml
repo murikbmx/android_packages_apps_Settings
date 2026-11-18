@@ -140,6 +140,17 @@
     </style>
 
 
+    <!-- Invisible host activity for the panic fingerprint dialogs -->
+    <style name="Theme.PanicFingerprint" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="alertDialogTheme">@style/Theme.AlertDialog</item>
+    </style>
+
     <style name="Theme.AlertDialog.SimConfirmDialog">
         <item name="buttonBarStyle">@style/SimConfirmDialog.ButtonBarStyle</item>
         <item name="buttonBarButtonStyle">@style/SimConfirmDialog.OutlineButton</item>

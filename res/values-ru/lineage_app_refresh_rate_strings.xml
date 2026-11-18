@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_refresh_rate_title">Частота обновления для приложений</string>
+    <string name="app_refresh_rate_summary">Частота обновления экрана, когда приложение на переднем плане</string>
+    <string name="app_refresh_rate_default">По умолчанию</string>
+    <string name="app_refresh_rate_hz"><xliff:g id="rate" example="120">%1$d</xliff:g> Гц</string>
+</resources>

@@ -3194,7 +3194,7 @@
         <activity android:name=".biometrics.fingerprint.PanicFingerprintActivity"
             android:exported="false"
             android:excludeFromRecents="true"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@style/Theme.PanicFingerprint" />
         <activity android:name=".biometrics.fingerprint.FingerprintEnrollIntroduction"
             android:exported="false"
             android:theme="@style/GlifTheme.Light" />

@@ -19,6 +19,11 @@
     <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
     <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
     <string name="private_dns_hostname_cloudflare" translatable="false">one.one.one.one</string>
+    <!-- Private DNS presets that block ads and trackers -->
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard-dns.com</string>
+    <string name="private_dns_mode_mullvad_adblock" translatable="false">Mullvad DNS (Adblock)</string>
+    <string name="private_dns_hostname_mullvad_adblock" translatable="false">adblock.dns.mullvad.net</string>
 
     <!-- Advanced keyboard settings -->
     <string name="keyboard_extras_title">Extras</string>
@@ -237,8 +242,19 @@
     <string name="ime_nav_bar_space_hidden_title">Hide space under keyboard</string>
     <string name="ime_nav_bar_space_hidden_summary">Remove the empty bar under the keyboard. The swipe up gesture is not affected</string>
 
+    <!-- Status bar: network type over the signal icon -->
+    <string name="status_bar_mobile_type_overlay_title">Small network type icon</string>
+    <string name="status_bar_mobile_type_overlay_summary">Show the network type (LTE, 5G) small over the signal icon in the status bar</string>
 
+    <!-- Status bar: LTE network type icon -->
+    <string name="status_bar_lte_icon_style_title">LTE icon</string>
+    <string name="status_bar_lte_icon_style_carrier">Carrier default</string>
+    <string name="status_bar_lte_icon_style_lte">LTE</string>
+    <string name="status_bar_lte_icon_style_4g">4G</string>
 
+    <!-- Shade header: VoLTE / VoWiFi badge -->
+    <string name="shade_ims_status_title">VoLTE and VoWiFi in the shade</string>
+    <string name="shade_ims_status_summary">Show whether calls go over VoLTE or Wi-Fi calling next to the carrier name in the expanded notification shade</string>
 
     <!-- Lock screen: theft protection -->
     <string name="lockscreen_theft_protection_title">Theft protection</string>
@@ -288,4 +304,7 @@
     <string name="panic_fingerprint_not_saved">No new fingerprint was added</string>
     <string name="panic_fingerprint_limit">You\'ve added the maximum number of fingerprints (%d). Remove one in Fingerprint settings first.</string>
     <string name="panic_fingerprint_enroll">Register</string>
+
+    <!-- Radio info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>

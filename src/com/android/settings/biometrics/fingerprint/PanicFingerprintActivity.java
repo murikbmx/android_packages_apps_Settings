@@ -17,7 +17,6 @@
 package com.android.settings.biometrics.fingerprint;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.hardware.fingerprint.Fingerprint;
 import android.hardware.fingerprint.FingerprintManager;
@@ -26,10 +25,14 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
+
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.password.ChooseLockSettingsHelper;
+import com.android.settingslib.widget.SettingsThemeHelper;
+import com.android.settingslib.widget.theme.flags.Flags;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -119,7 +122,7 @@ public class PanicFingerprintActivity extends Activity {
         final List<Fingerprint> enrolled = mFingerprintManager.getEnrolledFingerprints(mUserId);
         final int max = getMaxFingerprints();
         if (max > 0 && enrolled.size() >= max) {
-            new AlertDialog.Builder(this)
+            newDialogBuilder()
                     .setTitle(R.string.panic_fingerprint_title)
                     .setMessage(getString(R.string.panic_fingerprint_limit, max))
                     .setPositiveButton(android.R.string.ok, null)
@@ -154,7 +157,7 @@ public class PanicFingerprintActivity extends Activity {
     }
 
     private void showManageDialog() {
-        new AlertDialog.Builder(this)
+        newDialogBuilder()
                 .setTitle(R.string.panic_fingerprint_title)
                 .setMessage(R.string.panic_fingerprint_message)
                 .setPositiveButton(R.string.panic_fingerprint_done, (d, w) -> finish())
@@ -201,6 +204,16 @@ public class PanicFingerprintActivity extends Activity {
             Toast.makeText(this, R.string.panic_fingerprint_removed, Toast.LENGTH_SHORT).show();
             finish();
         }
+    }
+
+    /** Material dialog matching the rest of Settings (expressive when enabled). */
+    private AlertDialog.Builder newDialogBuilder() {
+        final int theme = Flags.isExpressiveDesignEnabled()
+                && SettingsThemeHelper.isExpressiveTheme(this)
+                ? com.android.settingslib.widget.theme.R.style
+                        .Theme_AlertDialog_SettingsLib_Expressive
+                : R.style.Theme_AlertDialog;
+        return new AlertDialog.Builder(this, theme);
     }
 
     private int getMaxFingerprints() {
